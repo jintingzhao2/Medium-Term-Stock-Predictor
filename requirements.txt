@@ -1,9 +1,5 @@
 streamlit
-<<<<<<< HEAD
 yfinance
 altair
 pandas
 watchdog
-=======
-yfinance
->>>>>>> bd470a0041c23e193971cfe38b3e2acb0b7b5723
