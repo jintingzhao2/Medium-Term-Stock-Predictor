@@ -1,9 +1,0 @@
-[theme]
-base="dark"
-
-primaryColor="#1DB954"              # Spotify green
-backgroundColor="#121212"           # Main background
-secondaryBackgroundColor="#181818"  # Sidebar / cards
-textColor="#FFFFFF"
-
-font="sans serif"
