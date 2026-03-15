@@ -4,6 +4,7 @@
 ## Table of Contents
 
 - [Medium-Term Stock Predictor](#medium-term-stock-predictor)
+- [Technologies](#technologies)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Analysis](#analysis)
@@ -26,6 +27,11 @@ This project is designed to assist investors in making informed decisions on whe
 
 These features are used collectively to provide a medium-term outlook on stock performance.
 
+## Technologies
+- Streamlit for creating and hosting quick data apps
+- Pandas for data analysis
+- Altair for creating graphs and plots
+- YFinance to get free financial and stock data
 ## Getting Started
 To get started, run the provided bash script:
 
