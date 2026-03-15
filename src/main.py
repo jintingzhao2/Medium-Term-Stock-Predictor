@@ -1,3 +1,5 @@
+import json
+
 import streamlit as st
 import yfinance as yf
 import pandas as pd
@@ -32,8 +34,9 @@ def get_ticker_info(ticker: str) -> dict:
 
 @st.cache_data
 def get_ticker_list() -> list[str]:
-    df = pd.read_csv("data/ticker_symbols.csv")
-    return df["ACT Symbol"].tolist()
+    with open("data/company_tickers.json", "r") as f:
+        data = json.load(f)
+    return [item["ticker"] for item in data.values()]
 
 
 def show_company_header(ticker: str, ticker_information: dict):
