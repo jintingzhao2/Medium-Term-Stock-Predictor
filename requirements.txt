@@ -1,4 +1,4 @@
-yfinance==0.2.58
+yfinance==1.1.0
 altair
 streamlit
 nltk
